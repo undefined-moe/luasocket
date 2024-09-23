@@ -33,6 +33,7 @@ jobs:
         env:
           DEBUG: DEBUG
       - name: upload
-        run: |
-          ls socket
-          ls mime
+        uses: actions/upload-artifact@v2
+        with:
+          name: luasocket
+          
