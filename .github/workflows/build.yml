@@ -34,4 +34,4 @@ jobs:
           DEBUG: DEBUG
       - name: upload
         run: |
-          ls -al
+          ls
